@@ -15,8 +15,8 @@ public class TopLayout extends JPanel{
 	private JRadioButton jrb1280x720;
 	private JRadioButton jrb1920x1280;
 	
-	
-	private JCheckBox jcbSP;
+	// 是否支持3.2
+	private JCheckBox jcbV32;
 	/**
 	 * 构造容器
 	 */
@@ -37,9 +37,9 @@ public class TopLayout extends JPanel{
 		
 		
 		
-		// 添加可选，生成sp
-		jcbSP = new JCheckBox("同时生成sp单位");
-		this.add(jcbSP);
+		// 设置是否支持3.2系统，因为3.2系统主要针对平板。 屏幕适配规则不太
+		jcbV32 = new JCheckBox("支持3.2 平板系统");
+		this.add(jcbV32);
 		
 		
 	}
@@ -48,7 +48,7 @@ public class TopLayout extends JPanel{
 	public boolean isSPSelected(){
 		
 		
-		return jcbSP.isSelected();
+		return jcbV32.isSelected();
 	}
 	
 	

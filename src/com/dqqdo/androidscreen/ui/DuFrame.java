@@ -23,7 +23,7 @@ public class DuFrame extends JFrame {
 	 */
 	private static final long serialVersionUID = -5609338395355447295L;
 	
-	private String title = "android适配方案工具，官网:www.dqqdo.com";
+	private String title = "android适配方案工具 v_2.1，官网:www.dqqdo.com";
 	
 	
 	CenterLayout centerLayout;

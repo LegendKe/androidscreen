@@ -13,7 +13,7 @@ public class CenterLayout extends JPanel{
 	 */
 	private static final long serialVersionUID = -3503191094211761668L;
 
-	JCheckBox item,item2,item3,item4,item5,item6,item7,item8,item9,item10,item11,item12,item13,item14,item15,item16;
+	JCheckBox item,item2,item3,item4,item5,item6,item7,item8,item9,item10,item11,item12,item13,item14,item15,item16,item17;
 	
 	CenterLayout(){
 	
@@ -53,7 +53,8 @@ public class CenterLayout extends JPanel{
 		this.add(item15);
 		item16 = new JCheckBox("xhdpi-1920x1080");
 		this.add(item16);
-		
+		item17 = new JCheckBox("xxxhdpi-2560x1440");
+		this.add(item17);
 		
 		
 	}

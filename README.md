@@ -31,10 +31,14 @@ Android screen是一个基于Java 开发的工具，目的是帮助android开发
 这里的内容很多，简单介绍不清楚。具体参考这里:
 
 http://blog.csdn.net/i7788/article/details/44937277
+http://www.dqqdo.com/?/article/2
 
 5 相关源码
 
 项目主页：https://code.csdn.net/zmobs/androidscreen
+
+http://www.dqqdo.com/?/article/2
+
 
 git地址：git://code.csdn.net/zmobs/androidscreen.git
 
